@@ -1,8 +1,8 @@
-# Steps to connect to GCP
+# Steps to connect to GCP:
 # I will need to create a GCP Kubernetes cluster by navigating to Kubernetes Engine > Cluster in GCP
 # Then, I will need to reference a yaml file for my frontend service and backend service using nano frontend.yaml, etc. and the command kubectl apply -f frontend.yaml, etc. tweaking some of the IP addresses.
 
-# The build/run commands you used to run the client-side application 
+# The build/run commands you used to run the client-side application:
 # docker build -t frontend .
 # docker run -t frontend . or docker run -t frontend bash to see the files
 
